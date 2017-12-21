@@ -137,3 +137,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/vendor/lib/liboemcamera.so:vendor/lib/liboemcamera.so \
     vendor/motorola/lux/proprietary/vendor/lib/libqomx_jpegdec.so:vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/lux/proprietary/vendor/lib/libqomx_jpegenc.so:vendor/lib/libqomx_jpegenc.so
+
