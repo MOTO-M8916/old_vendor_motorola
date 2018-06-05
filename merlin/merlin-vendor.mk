@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/merlin/proprietary/etc/firmware/synaptics-boe-s2726-15111801-1f711a-merlin.tdat:system/etc/firmware/synaptics-boe-s2726-15111801-1f711a-merlin.tdat \
     vendor/motorola/merlin/proprietary/etc/firmware/synaptics-inx-s2726br_t-15111103-1f711a-merlin.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15111103-1f711a-merlin.tdat \
     vendor/motorola/merlin/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/motorola/merlin/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/motorola/merlin/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/merlin/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/merlin/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
@@ -39,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/merlin/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/merlin/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/merlin/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/merlin/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
     vendor/motorola/merlin/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
     vendor/motorola/merlin/proprietary/vendor/lib/libactuator_ak7345_camera.so:system/vendor/lib/libactuator_ak7345_camera.so \
     vendor/motorola/merlin/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
