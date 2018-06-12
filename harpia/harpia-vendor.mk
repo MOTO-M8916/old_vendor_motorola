@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/harpia/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/harpia/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/harpia/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+    vendor/motorola/harpia/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/harpia/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/harpia/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/harpia/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
@@ -41,13 +42,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/harpia/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/harpia/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
     vendor/motorola/harpia/proprietary/vendor/lib/hw/sensors.msm8916.so:system/vendor/lib/hw/sensors.msm8916.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/hw/sensorhub.msm8916.so:system/vendor/lib/hw/sensorhub.msm8916.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s.so:system/vendor/lib/libactuator_f8v03t_dw9718s.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s_camcorder.so:system/vendor/lib/libactuator_f8v03t_dw9718s_camcorder.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s_camera.so:system/vendor/lib/libactuator_f8v03t_dw9718s_camera.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_l8865aa0_dw9718s.so:system/vendor/lib/libactuator_l8865aa0_dw9718s.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_l8865aa0_dw9718s_camcorder.so:system/vendor/lib/libactuator_l8865aa0_dw9718s_camcorder.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_l8865aa0_dw9718s_camera.so:system/vendor/lib/libactuator_l8865aa0_dw9718s_camera.so \
-    vendor/motorola/harpia/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_common.so:system/vendor/lib/libchromatix_ov5695_common.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_default_video.so:system/vendor/lib/libchromatix_ov5695_default_video.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_hfr_120fps.so:system/vendor/lib/libchromatix_ov5695_hfr_120fps.so \
