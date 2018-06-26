@@ -101,6 +101,31 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_liveshot.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_preview.so:system/vendor/lib/libchromatix_s5k5e2_preview.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_snapshot.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_common.so:system/vendor/lib/libchromatix_mot_imx214_common.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_default_4k_video.so:system/vendor/lib/libchromatix_mot_imx214_default_4k_video.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so:system/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_default_video.so:system/vendor/lib/libchromatix_mot_imx214_default_video.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so:system/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so:system/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_postproc.so:system/vendor/lib/libchromatix_mot_imx214_postproc.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_snapshot.so:system/vendor/lib/libchromatix_mot_imx214_snapshot.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so:system/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \

@@ -56,4 +56,5 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     imscmlibrary \
-    qti-vzw-ims-internal
+    qti-vzw-ims-internal \
+    com.qualcomm.qti.imscmservice@1.0-java
