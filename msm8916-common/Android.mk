@@ -26,6 +26,7 @@ LOCAL_SRC_FILES := proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
@@ -36,6 +37,7 @@ LOCAL_SRC_FILES := proprietary/vendor/framework/vendor.qti.hardware.sensorscalib
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
@@ -94,6 +96,7 @@ LOCAL_SRC_FILES := proprietary/framework/imscmlibrary.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -115,6 +118,7 @@ LOCAL_SRC_FILES := proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -125,6 +129,7 @@ LOCAL_SRC_FILES := proprietary/framework/qcnvitems.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -135,6 +140,7 @@ LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
