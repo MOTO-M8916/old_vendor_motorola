@@ -114,7 +114,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.qti.imscmservice@1.0-java
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar
+LOCAL_SRC_FILES := proprietary/vendor/framework/com.qualcomm.qti.imscmservice@1.0-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
