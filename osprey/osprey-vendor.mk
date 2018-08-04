@@ -17,28 +17,28 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/motorola/osprey/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/motorola/osprey/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
-    vendor/motorola/osprey/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
-    vendor/motorola/osprey/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
-    vendor/motorola/osprey/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/motorola/osprey/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
-    vendor/motorola/osprey/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/osprey/proprietary/etc/firmware/synaptics-boe-s2726-15100905-1f711a-osprey.tdat:system/etc/firmware/synaptics-boe-s2726-15100905-1f711a-osprey.tdat \
-    vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15091801-1dc9a8-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15091801-1dc9a8-osprey.tdat \
-    vendor/motorola/osprey/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/motorola/osprey/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
-    vendor/motorola/osprey/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
-    vendor/motorola/osprey/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
-    vendor/motorola/osprey/proprietary/lib/libjscore.so:system/lib/libjscore.so \
-    vendor/motorola/osprey/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
-    vendor/motorola/osprey/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/motorola/osprey/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/motorola/osprey/proprietary/lib/libmmcamera_lux_standardization.so:system/lib/libmmcamera_lux_standardization.so \
-    vendor/motorola/osprey/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/motorola/osprey/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
-    vendor/motorola/osprey/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
-    vendor/motorola/osprey/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/General_cal.acdb:system/vendor/etc/acdbdata/General_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Global_cal.acdb:system/vendor/etc/acdbdata/Global_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Handset_cal.acdb:system/vendor/etc/acdbdata/Handset_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/firmware/synaptics-boe-s2726-15100905-1f711a-osprey.tdat:system/vendor/firmware/synaptics-boe-s2726-15100905-1f711a-osprey.tdat \
+    vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15091801-1dc9a8-osprey.tdat:system/vendor/firmware/synaptics-inx-s2726br_t-15091801-1dc9a8-osprey.tdat \
+    vendor/motorola/osprey/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/motorola/osprey/proprietary/lib/libadvalgcore.so:system/vendor/lib/libadvalgcore.so \
+    vendor/motorola/osprey/proprietary/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
+    vendor/motorola/osprey/proprietary/lib/libcamerabgprocservice.so:system/vendor/lib/libcamerabgprocservice.so \
+    vendor/motorola/osprey/proprietary/lib/libjscore.so:system/vendor/lib/libjscore.so \
+    vendor/motorola/osprey/proprietary/lib/libjustshoot.so:system/vendor/lib/libjustshoot.so \
+    vendor/motorola/osprey/proprietary/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/motorola/osprey/proprietary/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/motorola/osprey/proprietary/lib/libmmcamera_lux_standardization.so:system/vendor/lib/libmmcamera_lux_standardization.so \
+    vendor/motorola/osprey/proprietary/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/motorola/osprey/proprietary/lib/libmot-qc-fd-offline.so:system/vendor/lib/libmot-qc-fd-offline.so \
+    vendor/motorola/osprey/proprietary/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
+    vendor/motorola/osprey/proprietary/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/motorola/osprey/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
