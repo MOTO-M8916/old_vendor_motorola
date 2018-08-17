@@ -207,6 +207,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:vendor/lib/soundfx/libqcbassboost.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/soundfx/libqcreverb.so:vendor/lib/soundfx/libqcreverb.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/soundfx/libqcvirt.so:vendor/lib/soundfx/libqcvirt.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/soundfx/libatmos.so:vendor/lib/soundfx/libatmos.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/soundfx/libswvlldp.so:vendor/lib/soundfx/libswvlldp.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:vendor/lib/motorola.hardware.camera.device@1.0_vendor.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
