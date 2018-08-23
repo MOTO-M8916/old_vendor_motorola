@@ -18,6 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/imscm.xml:vendor/etc/permissions/imscm.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:vendor/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/com.qualcomm.qti.imscmservice.xml:vendor/etc/com.qualcomm.qti.imscmservice.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/imscmservice:vendor/bin/imscmservice \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/imsdatadaemon:vendor/bin/imsdatadaemon \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/imsqmidaemon:vendor/bin/imsqmidaemon \
@@ -25,6 +26,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/ims_rtp_daemon:vendor/bin/ims_rtp_daemon \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-dplmedia.so:vendor/lib/lib-dplmedia.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:vendor/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.1_vendor.so:vendor/lib/com.qualcomm.qti.imscmservice@1.1_vendor.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imscamera.so:vendor/lib/lib-imscamera.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsdpl.so:vendor/lib/lib-imsdpl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsqimf.so:vendor/lib/lib-imsqimf.so \
@@ -32,9 +35,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsrcscm.so:vendor/lib/lib-imsrcscm.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsrcscmclient.so:vendor/lib/lib-imsrcscmclient.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsrcscmservice.so:vendor/lib/lib-imsrcscmservice.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imscmservice.so:vendor/lib/lib-imscmservice.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-ims-rcscmjni.so:vendor/lib/lib-ims-rcscmjni.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imss.so:vendor/lib/lib-imss.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsrcs-v2.so:vendor/lib/lib-imsrcs-v2.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsvideocodec.so:vendor/lib/lib-imsvideocodec.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsvt.so:vendor/lib/lib-imsvt.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsSDP.so:vendor/lib/lib-imsSDP.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsvtextutils.so:vendor/lib/lib-imsvtextutils.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsvtutils.so:vendor/lib/lib-imsvtutils.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-imsxml.so:vendor/lib/lib-imsxml.so \
@@ -47,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libimscamera_jni.so:vendor/lib/libimscamera_jni.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libimsmedia_jni.so:vendor/lib/libimsmedia_jni.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/librcc.so:vendor/lib/librcc.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libvoice-svc.so:vendor/lib/libvoice-svc.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
@@ -56,4 +64,5 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     imscmlibrary \
-    qti-vzw-ims-internal
+    qti-vzw-ims-internal \
+    com.qualcomm.qti.imscmservice@1.0-java
