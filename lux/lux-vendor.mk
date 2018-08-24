@@ -54,13 +54,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/vendor/lib/libmmcamera_lux_standardization.so:vendor/lib/libmmcamera_lux_standardization.so \
     vendor/motorola/lux/proprietary/vendor/lib/libmmjpeg_interface.so:vendor/lib/libmmjpeg_interface.so \
     vendor/motorola/lux/proprietary/vendor/lib/libmot-qc-fd-offline.so:vendor/lib/libmot-qc-fd-offline.so \
-    vendor/motorola/lux/proprietary/vendor/lib/libmotaudioutils.so:vendor/lib/libmotaudioutils.so \
     vendor/motorola/lux/proprietary/vendor/lib/libmotocalibration.so:vendor/lib/libmotocalibration.so \
     vendor/motorola/lux/proprietary/vendor/lib/libqomx_core.so:vendor/lib/libqomx_core.so \
-    vendor/motorola/lux/proprietary/vendor/lib/libunshorten.so:vendor/lib/libunshorten.so \
-    vendor/motorola/lux/proprietary/vendor/lib/hw/audio_policy.default.so:vendor/lib/hw/audio_policy.default.so \
-    vendor/motorola/lux/proprietary/vendor/lib/hw/audio.primary.default.so:vendor/lib/hw/audio.primary.default.so \
-    vendor/motorola/lux/proprietary/vendor/lib/hw/audio.primary.msm8916.so:vendor/lib/hw/audio.primary.msm8916.so \
     vendor/motorola/lux/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:vendor/lib/hw/camera.vendor.msm8916.so \
     vendor/motorola/lux/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:vendor/lib/libSonyIMX230PdafLibrary.so \
     vendor/motorola/lux/proprietary/vendor/lib/libactuator_lc898212xd.so:vendor/lib/libactuator_lc898212xd.so \
@@ -137,4 +132,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/vendor/lib/liboemcamera.so:vendor/lib/liboemcamera.so \
     vendor/motorola/lux/proprietary/vendor/lib/libqomx_jpegdec.so:vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/lux/proprietary/vendor/lib/libqomx_jpegenc.so:vendor/lib/libqomx_jpegenc.so
+
 
