@@ -131,3 +131,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/liboemcamera.so:vendor/lib/liboemcamera.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libqomx_jpegdec.so:vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libqomx_jpegenc.so:vendor/lib/libqomx_jpegenc.so
+
