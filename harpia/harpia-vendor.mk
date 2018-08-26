@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,6 +17,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/harpia/proprietary/vendor/bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon \
+    vendor/motorola/harpia/proprietary/vendor/bin/stml0xx:vendor/bin/stml0xx \
     vendor/motorola/harpia/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/harpia/proprietary/vendor/etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb \
     vendor/motorola/harpia/proprietary/vendor/etc/acdbdata/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb \
