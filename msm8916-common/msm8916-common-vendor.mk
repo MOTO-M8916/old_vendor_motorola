@@ -230,7 +230,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     TimeService \
+    ims \
     qcrilmsgtunnel \
-    qti-vzw-ims-internal \
     qcnvitems \
     qcrilhook
